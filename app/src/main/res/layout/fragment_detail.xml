@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/purple_200"
+    tools:context=".detailFrag">
+
+
+    <ImageView
+        android:id="@+id/ivDetail"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@android:drawable/ic_menu_my_calendar" />
+
+    <TextView
+        android:id="@+id/tvnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36px"
+        android:padding="15px"
+        android:textStyle="bold"
+        android:hint="Name" />
+
+    <TextView
+        android:id="@+id/tvphd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15px"
+
+        android:hint="Phone" />
+</LinearLayout>
